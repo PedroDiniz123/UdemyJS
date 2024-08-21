@@ -7,6 +7,7 @@ const pessoa = {
     }
 }
 
+
 const chave = 'nome'
 // console.log(pessoa[chave])
 
