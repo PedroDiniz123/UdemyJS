@@ -1,0 +1,7 @@
+<ul class="tarefas">
+  <app-tarefa *ngFor="let tarefa of tarefas"
+            [tarefa]="tarefa"
+            (onDeleteTask)="deleteTask($event)"
+            (onEditTask)="editTask($event)"
+  ></app-tarefa>
+</ul>
